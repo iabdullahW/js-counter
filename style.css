@@ -1,0 +1,52 @@
+.main {
+    background-image: url(https://th.bing.com/th/id/OIP.w-TJ0BYjDCCKpjlcK0tbhwHaHa?rs=1&pid=ImgDetMain);
+    height: 1000px;
+    width: 1000px;
+    background-size: cover;
+}
+
+#countlabel {
+    display: block;
+    text-align: center;
+    color: white;
+    font-size: 10em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#btncontainer {
+    text-align: center;
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: black;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+    background: transparent;
+}
+
+#decreasebtn {
+    border: 3px solid black;
+}
+
+#decreasebtn:hover {
+    color: red;
+}
+
+#resetbtn {
+    border: 3px solid black;
+}
+
+#resetbtn:hover {
+    color: grey;
+}
+
+#increasebtn{
+    border: 3px solid black;
+}
+
+#increasebtn:hover {
+    color: green;
+}
